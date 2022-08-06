@@ -1,0 +1,437 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ------NAVBAR------ */
+
+#Navbar {
+    /* border: 2px solid red; */
+    height: 8vh;
+    width: 100%;
+}
+
+.nav_menus {
+    opacity: 0.8;
+    display: inline-block;
+    position: absolute;
+    top: 1vh;
+    left: 56vw;
+    /* border: 2px solid green; */
+    border-radius: 25px;
+    background-color: #d3e9f3;
+    height: 6vh;
+    width: 65vh;
+}
+
+.nav_menus ul {
+    display: flex;
+    align-items: center;
+    margin: auto;
+
+}
+
+.nav_menus ul li {
+    position: relative;
+    left: 2vh;
+    top: 1vh;
+    font-size: larger;
+    padding-left: 31px;
+    list-style: none;
+    font-weight: 600;
+}
+
+.nav_menus ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.nav_menus ul li a:hover {
+    color: rgb(255, 0, 0);
+    font-size: 3vh;
+}
+
+/* ---------Home------- */
+.home {
+    background: url(/aeroplane4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* border: 2px solid red; */
+    height: 100vh;
+    width: 100%;
+}
+
+.header {
+    display: inline-block;
+    color: white;
+    position: relative;
+    top: 12vh;
+    left: 4vh;
+}
+
+.info {
+    display: inline-block;
+    font-family: cursive;
+    color: white;
+    position: relative;
+    /* top: 29vh; */
+    left: 1.5vw;
+    width: 56%;
+    height: 10vh;
+    margin-bottom: 20px;
+}
+
+.info2 {
+    display: inline-block;
+    font-family: cursive;
+    color: white;
+    position: relative;
+    /* top: 29vh; */
+    left: 1.5vw;
+    width: 56%;
+    height: 10vh;
+}
+
+/* -----FOOTER----- */
+
+#footer {
+    background: linear-gradient(135deg, #00ff99, #3399ff);
+    /* background: linear-gradient(135deg,#ff0066,#006699); */
+    /* border: 2px solid red; */
+    position: relative;
+    top: 92vh;
+    height: 26vh;
+    width: 100%;
+}
+
+/* fisrt-conainer */
+.first-container {
+    display: flex;
+    /* border: 2px solid blue; */
+    height: 10vh;
+    width: 100%;
+    justify-content: center;
+}
+
+.phone-number {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* border: 2px solid #cf2e2e; */
+    height: 8vh;
+    width: 25vw;
+    border-radius: 25px;
+}
+
+#phone-no a:hover {
+    color: rgb(255, 51, 0);
+}
+
+.phone-logo {
+    background: url(/Calling.png) no-repeat;
+    background-size: 100%;
+    border-radius: 25px;
+    border: 2px solid black;
+    height: 4vh;
+    width: 2vw;
+
+}
+
+.address {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* border: 2px solid #cf2e2e; */
+    height: 8vh;
+    width: 25vw;
+    border-radius: 25px;
+}
+
+#Address a:hover {
+    color: rgb(255, 51, 0);
+}
+
+.address-logo {
+    background: url(/globeimg.jpg) no-repeat;
+    background-size: 100%;
+    border-radius: 25px;
+    border: 2px solid black;
+    height: 4vh;
+    width: 2vw;
+}
+
+.email {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* border: 2px solid #cf2e2e; */
+    height: 8vh;
+    width: 25vw;
+    border-radius: 25px;
+}
+
+#Email a:hover {
+    color: rgb(255, 51, 0);
+}
+
+.email-logo {
+    background: url(/emailImg.jpg) no-repeat;
+    background-size: 100%;
+    border-radius: 25px;
+    border: 2px solid black;
+    height: 4vh;
+    width: 2vw;
+}
+
+
+/* Second container */
+.Second-container {
+    display: flex;
+    /* border: 2px solid blue; */
+    height: 10vh;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    top: 5vh;
+}
+
+.logos {
+    display: flex;
+    width: 12vw;
+}
+
+.logos a {
+    margin: 10px 20px;
+}
+
+.facebook {
+
+    height: 44px;
+    width: 42px;
+    border-radius: 21px;
+}
+
+.twitter {
+
+    height: 44px;
+    width: 42px;
+    border-radius: 21px;
+}
+
+.linkedin {
+
+    height: 44px;
+    width: 52px;
+    border-radius: 21px;
+}
+
+.intro {
+    height: 190px;
+    margin-top: 145px;
+}
+
+/* media queries */
+@media screen and (max-width:426px) {
+    body {
+        background-color: #61c5d1;
+    }
+
+    .nav_menus {
+        left: 0;
+        width: 100vw;
+    }
+
+    .header {
+        top: 15vh;
+        left: 18vh;
+        font-size: 2.7rem;
+    }
+
+    .intro {
+        height: 455px;
+        margin-top: 170px;
+        background-color: #61c5d1;
+    }
+
+    /* .intro p{
+        background-color: #36abc4;
+    } */
+    .info {
+        width: 90vw;
+        margin: 0px 16px;
+    }
+
+    .info2 {
+        width: 90vw;
+        margin: 135px 16px;
+    }
+
+    #footer {
+        height: 40vh;
+    }
+
+    .address {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        height: 18vh;
+        width: 30vw;
+        margin: 22px 0px;
+
+    }
+
+    .address-logo {
+        height: 6.8vh;
+        width: 11vw;
+    }
+
+    .phone-number {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        height: 18vh;
+        width: 30vw;
+        margin: 22px 0px;
+    }
+
+    .phone-logo {
+        height: 6.8vh;
+        width: 11vw;
+    }
+
+    .email {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        height: 18vh;
+        width: 27vw;
+        margin: 22px 0px;
+    }
+
+
+    .email-logo {
+        height: 6.8vh;
+        width: 11vw;
+    }
+
+    .Second-container {
+        height: 11vh;
+        margin-top: 50px;
+    }
+
+    .logos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logos a {
+        margin: 10px 20px;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .nav_menus {
+        font-size: 13px;
+    }
+
+    .header {
+        left: 16vh;
+    }
+
+    .intro {
+        height: 455px;
+        margin-top: 170px;
+        background-color: #61c5d1;
+    }
+
+    .info2 {
+        width: 90vw;
+        margin: 155px 16px;
+    }
+
+    .email {
+        margin: 22px 12px;
+    }
+
+}
+
+@media screen and (max-width:322px) {
+    .nav_menus {
+        font-size: 10px;
+    }
+
+    .header {
+        top: 12vh;
+        left: 11vh;
+    }
+
+    .info {
+        margin: -42px 16px;
+    }
+
+    .info2 {
+        margin: 206px 16px;
+    }
+
+    .phone-logo {
+        height: 4.8vh;
+        width: 10vw;
+    }
+
+    .address-logo {
+        height: 4.8vh;
+        width: 10vw;
+    }
+
+    .email-logo {
+        height: 4.8vh;
+        width: 10vw;
+    }
+
+    .phone-number {
+        margin: 23px 20px;
+        font-size: 8px;
+    }
+
+    .email {
+        margin: 14px 12px;
+        font-size: 8px;
+    }
+
+    .address{
+        margin: 21px 10px;
+        font-size: 8px;
+    }
+
+    .facebook {
+
+        height: 34px;
+        width: 34px;
+        border-radius: 21px;
+    }
+    
+    .twitter {
+    
+        height: 34px;
+        width: 34px;
+        border-radius: 21px;
+    }
+    
+    .linkedin {
+    
+        height: 34px;
+        width: 38px;
+        border-radius: 21px;
+    }
+    #footer{
+        height: 38vh;
+    }
+}
